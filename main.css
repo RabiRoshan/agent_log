@@ -1,0 +1,84 @@
+body{
+    background-image: url("bci.png");
+    background-size: cover;
+    font-family: impact;
+    color: #ee962c;
+}
+
+h1{
+    text-shadow: 0 0 5px #FF0000;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.logIn{
+    display: inline-block;
+    padding: 15px;
+    float: left;
+    margin-left: 15%;
+    margin-top: 18%;
+
+    border:inset;
+}
+
+.signUp{
+    display: inline-block;
+    padding: 15px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 16%;
+
+    border: inset;
+}
+
+.line{
+    background-color: #00effe;
+    width: 1px;
+    height: 90%;
+    margin: 50px 0px 5px 0px;
+    border: 1px solid #ededed;
+    display: inline-block;
+}
+
+.details{
+    text-align: left;
+}
+
+.submit{
+    display: block;
+    margin: auto;
+    color: #ee962c;
+    font-family: impact;
+    text-transform: capitalize;
+    background-color: #032a4c;
+    border: groove;
+    font-size: 20px;
+    width: 100%;
+}
+
+.submit:hover{
+    text-shadow: 0 0 8px #FF0000;
+    cursor: pointer;
+}
+
+.input{
+    background-color: #032a4c;
+    color: aqua;
+    border: groove;
+    text-align: center;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.input:hover{
+    background-color: #034470;
+}
